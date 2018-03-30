@@ -473,20 +473,22 @@ a {
   .cart__blink {
     position: absolute;
     display: block;
-    width: 70%;
-    padding-bottom: 20em;
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     z-index: 2; }
     .cart__blink_top {
+      width: 70%;
+      padding-bottom: 20em;
       background-image: url(../img/blink-top.png);
       top: -8.2em;
       right: -10%; }
     .cart__blink_bottom {
+      width: 50%;
+      padding-bottom: 14em;
       background-image: url(../img/blink-bottom.png);
-      left: -13%;
-      bottom: -12.15em; }
+      left: -8%;
+      bottom: -8.4em; }
   .cart:before {
     content: '';
     position: absolute;

@@ -398,11 +398,14 @@ a {
 		max-width: 100%;
 		padding: 1.5em 1.2em;
 		&__blink {
-			width: 50%;
-			padding-bottom: 20em;
 			&_top {
+				width: 50%;
+				padding-bottom: 20em;
 			}
 			&_bottom {
+				left: -5%;
+				width: 33%;
+				padding-bottom: 13.8em;
 			}
 		}
 		&:after {

@@ -734,9 +734,13 @@ a {
     .cart {
       max-width: 100%;
       padding: 1.5em 1.2em; }
-      .cart__blink {
+      .cart__blink_top {
         width: 50%;
         padding-bottom: 20em; }
+      .cart__blink_bottom {
+        left: -5%;
+        width: 33%;
+        padding-bottom: 13.8em; }
       .cart:after {
         background-image: url(../img/vdash.png);
         width: 2px;
